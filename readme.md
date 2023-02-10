@@ -1,3 +1,6 @@
+Tests are in the /latest/tests folder with *.spec.js extension
+Run the terminal from that folder to run the tests
+
 Prerequisites
 	•	Node.js installed on your machine
 	•	Playwright installed on your machine
