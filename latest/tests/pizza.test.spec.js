@@ -1,4 +1,9 @@
 const { test, expect } = require('@playwright/test');
+const { defineConfig } = require('@playwright/test');
+
+module.exports = defineConfig({
+  reporter: [['list', { printSteps: true }]],
+});
 
 test('DodoPizzaMoscowpageLoad', async ({ page }) => {
   await page.goto('https://dodopizza.ru/moscow');
